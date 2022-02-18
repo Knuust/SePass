@@ -17,7 +17,7 @@
                [-o OUT] [-rr RELEVANT_RULESET_RATIO] [-sr SEMANTIC_RATING]
                [-rv RESTRICT_VOCAB] [--mode MODE]
                pwlist
-```
+               
 positional arguments:
   pwlist                path of password list to be analyzed
 
@@ -46,3 +46,4 @@ optional arguments:
                         model to themost frequent k
   --mode MODE           this parameter defines the mode for semantic
                         expansion. Default = k-NN
+```
