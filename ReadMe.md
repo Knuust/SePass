@@ -42,8 +42,8 @@ optional arguments:
                         higher semantic rating will increase the influence of
                         word semantic in sorting process
   -rv RESTRICT_VOCAB, --restrict_vocab RESTRICT_VOCAB
-                        this parameter restricts the number of words ov each
-                        model to themost frequent k
+                        this parameter restricts the number of words of each
+                        model to the most frequent k
   --mode MODE           this parameter defines the mode for semantic
                         expansion. Default = k-NN
 ```
