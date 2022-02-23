@@ -29,7 +29,7 @@ In order to run SePass you need pretrained word embeddings, that are compatible 
  
  # Reproducibility
  
- If you are looking to reproduce the results from our corresponding paper (unpublished, in review) you can find detailed instructions and jupyter notebooks in [the evaluation folder](/evaluation/) and our train and test password lists in the [data folder](/data/)
+ If you are looking to reproduce the results from our corresponding paper (unpublished, in review) you can find detailed instructions and scripts in [the evaluation folder](/evaluation/) and our train and test password lists in the [data folder](/data/)
  
  # Usage
  
