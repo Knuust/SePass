@@ -12,13 +12,20 @@ Commonly used tools for password guessing work with passwords leaks and use thes
  
  # Installation
  
+ We suggest running SePass on a Unix system and using a virtual environment to install the requirements for SePass. 
+ You can create a virtual environment in python in the following manner:
  
+ ```
+ python -m venv env 
+ source env/bin/activate
+ ```
+ Afterwards install the required libraries:
  
  ```
  pip install -r requirements.txt
  ```
  
-In order to run our method pretrained word embeddings are needed, that are then loaded and used by [gensim](). We suggest using the fasttext models for 157 langugages in order to choose which languages should be . The models can be downloaded [here](https://fasttext.cc/docs/en/crawl-vectors.html).
+In order to run SePass you need pretrained word embeddings, that are compatible by [gensim](https://radimrehurek.com/gensim/). We suggest using the fasttext models for 157 langugages in order to choose which languages should be . The models can be downloaded [here](https://fasttext.cc/docs/en/crawl-vectors.html).
  
  # Reproducibility
  
