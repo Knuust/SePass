@@ -13,6 +13,12 @@ Commonly used tools for password guessing work with passwords leaks and use thes
  
  
  
+ ```
+ pip install -r requirements.txt
+ ```
+ 
+In order to run our method pretrained word embeddings are needed, that are then loaded and used by [gensim](). We suggest using the fasttext models for 157 langugages in order to choose which languages should be . The models can be downloaded [here](https://fasttext.cc/docs/en/crawl-vectors.html).
+ 
  # Reproducibility
  
  If you are looking to reproduce the results from our corresponding paper (unpublished, in review) you can find detailed instructions and jupyter notebooks in [the evaluation folder](/evaluation/) 
