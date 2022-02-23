@@ -1,6 +1,7 @@
 # SePass: Semantic Password Guessing using k-nn Similarity Search in Word Embeddings
 
- We introduce SePass, a novel password guessing method that utilizes word embeddings to discover and exploit semantic correlations in password lists. 
+We introduce SePass, a novel password guessing method that utilizes word embeddings to discover and exploit semantic correlations in password lists. 
+Our tool here is made for research purposes and is intended to be used for further research. It is therefore still a work in progress and not designed for usability at the moment. 
  
  # Overview
 Commonly used tools for password guessing work with passwords leaks and use these lists for candidate generation based on handcrafted or inferred rules. These methods are often limited in their capability of producing entirely novel passwords, based on vocabulary not included in the given password lists. SePass, is a novel tool that utilizes word embeddings to discover and exploit semantic correlations in order to guess novel base words for passwords deliberately. 
