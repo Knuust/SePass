@@ -12,6 +12,11 @@ Commonly used tools for password guessing work with passwords leaks and use thes
  # Installation
  
  
+ 
+ # Reproducibility
+ 
+ If you are looking to reproduce the results from our corresponding paper (unpublished, in review) you can find detailed instructions in [the evaluation folder](/evaluation/) 
+ 
  # Usage
  
 ```
