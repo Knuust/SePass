@@ -24,7 +24,13 @@ Commonly used tools for password guessing work with passwords leaks and use thes
  ```
  pip install -r requirements.txt
  ```
- 
+
+For rule detection it is necessary that the Enchant C library is installed:
+
+```
+apt install enchant-2-2
+```
+
 In order to run SePass you need pretrained word embeddings, that are compatible by [gensim](https://radimrehurek.com/gensim/). We suggest using the fasttext models for 157 langugages in order to choose which languages should be . The models can be downloaded [here](https://fasttext.cc/docs/en/crawl-vectors.html).
  
  # Reproducibility
@@ -32,6 +38,7 @@ In order to run SePass you need pretrained word embeddings, that are compatible 
  If you are looking to reproduce the results from our corresponding paper (unpublished, in review) you can find detailed instructions and scripts in [the evaluation folder](/evaluation/) and our train and test password lists in the [data folder](/data/)
  
  # Usage
+The gensim models need to be in a directory named *models* in the same directory as SePass.py to be found.
  
 ```
  SePass.py [-h] [--debug] [-len LIST_LENGTH]
