@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-# SPG  -  Semantic Password Generator
+# SePass  -  Semantic Password Guessing
 #
 # VERSION 1.0.1
 #
-# Copyright (C) 2021 Levin Schäfer
+# Copyright (C) 2021-2022 Levin Schäfer
 # All rights reserved.
 #
 # This tool uses rulegen as part of PACK (Password Analysis and Cracking Kit)
@@ -418,12 +418,12 @@ def analyze_pws_with_model(pw_list, w_e_model):
 window_width = shutil.get_terminal_size().columns
 print("####################################################################################".center(window_width))
 print("#                                                                                  #".center(window_width))
-print("#                                        SPG                                       #".center(window_width))
-print("#                           Semantic Password Generator                            #".center(window_width))
+print("#                                     SePass                                       #".center(window_width))
+print("#                           Semantic Password Guessing                             #".center(window_width))
 print("#                                                                                  #".center(window_width))
 print("#                                   version 1.0.1                                  #".center(window_width))
 print("#                                                                                  #".center(window_width))
-print("#                         Copyright (C) 2021 Levin Schäfer                         #".center(window_width))
+print("#                      Copyright (C) 2021 -2022 Levin Schäfer                      #".center(window_width))
 print("#                             levin.schaefer@posteo.de                             #".center(window_width))
 print("#                                                                                  #".center(window_width))
 print("#                                All rights reserved.                              #".center(window_width))
